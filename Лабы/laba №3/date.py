@@ -1,0 +1,12 @@
+from datetime import datetime
+now = datetime.now()
+print("Дата и время: ",now)
+print("Дата: ",datetime.now().date())
+print("Время: ",datetime.now().time())
+print("Год: ",now.year)
+print("Месяц: ",now.month)
+print("День: ",now.day)
+print("Часов: ",now.hour)
+print("Минут: ",now.minute)
+print("Секунд: ",now.second)
+print("Микросекунд: ",now.microsecond)
